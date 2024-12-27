@@ -1,0 +1,104 @@
+@import url('http://fonts.googleapis.com/css2?family-merriweather+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-size: 1.7rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #07001a;
+    color: #faf7f7;
+    font-weight: bold;
+    background-color:var(#00204a);
+    text-align: center;
+    
+}
+
+h2{
+    text-align:center;
+    margin-bottom:2rem;
+    font-size: 1rem;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly; 
+}
+
+.product {
+    display: list-item;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        clip-path: inset(100% 0 0);
+    }
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.products {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.products:nth-child(1) {
+   
+    margin-bottom: 20px;
+    margin-top: 20%;
+}
+.products:nth-child(2) {
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+.products:nth-child(3) {
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+.products:nth-child(4) {
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+.products:nth-child(5) {
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+.products:nth-child(6) {
+  
+    margin-bottom: 10px;
+}
+.products:nth-child(7) {
+    
+    margin-bottom: 10px;
+}
+.products:nth-child(8) {
+  
+    margin-bottom: 10px;
+}
+.products:nth-child(9) {
+    
+    margin-bottom: 10px;
+}
+.products:nth-child(10) {
+   
+    margin-bottom: 10px;
+}
+.products:nth-child(11) {
+    
+    margin-bottom: 5px;
+    
+}
+.products:nth-child(12) {
+   
+    margin-bottom: 5px;
+    
+}
+
+
+
+
